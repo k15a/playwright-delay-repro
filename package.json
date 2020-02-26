@@ -1,0 +1,15 @@
+{
+  "name": "playwright-delay-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm script",
+    "watch": "nodemon -r esm script"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.2",
+    "playwright": "^0.11.1"
+  }
+}
